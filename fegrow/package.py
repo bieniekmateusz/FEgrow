@@ -682,7 +682,7 @@ class RList(RInterface, list):
 def build_molecules(core_ligand: RMol,
                     attachment_points: List[int],
                     r_groups: Union[RGroupGrid, List[Chem.Mol]],
-                    ) ->RList[RMol]:
+                    ) ->RList:
     """
     For the given core molecule and list of attachment points
      and r groups enumerate the possible molecules and
